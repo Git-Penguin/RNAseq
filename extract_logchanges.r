@@ -1,0 +1,5 @@
+means_per_transcript <- read.table("means_per_transcript.txt",sep="\t",header=TRUE)
+log_changes <- c(log2((means_per_transcript$D_Pt_mean)/(means_per_transcript$A24wt_mean)))
+combined <- cbind(means_per_transcript, log_changes)
+log_changes_assigned <- dplyr::select(combined,transcript,log_changes)
+write.table(log_changes_assigned,file="log_changes.txt",sep="\t")
