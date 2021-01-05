@@ -1,0 +1,2 @@
+CPAT_caller does the actual coding potential assessment
+extract_novel extracts the "novel" transcript sequences (StringTie gene identifier) from a fasta-file created in preparation of the kallisto indexing step
