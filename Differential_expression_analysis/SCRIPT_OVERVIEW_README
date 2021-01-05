@@ -9,4 +9,6 @@ transcriptPlotPrep and extractlogchange (the former calls the latter) handle the
 genelist_cleanup adresses partially duplicate lines in the output of the gene mode analyses
 (Multiple for the same StringTie gene-IDs if they have multiple reference-genes assigned to them --> collapsed into one line per StrinTie gene-ID)
 
+rankKnownGenes
+
 
