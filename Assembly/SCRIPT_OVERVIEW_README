@@ -1,0 +1,2 @@
+Just like in the mapping and fastq steps, the tasks were split into two scripts which was never really simplified later
+Strintie_execute creates the 4 assemblies (1 per growth condition) and stringtie_merger just combines them into one
