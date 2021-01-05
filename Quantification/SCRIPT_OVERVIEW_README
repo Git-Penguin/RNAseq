@@ -1,0 +1,4 @@
+kallisto_caller does the actual quantification
+Kallisto_summary collects the pseudo_alignmentrates of all runs in one file and also joins the counts for a given transcript from the 12 separate Kallisto outputs
+
+This was used to check before the sleuth analysis how many of the tanscripts only contained only 0 counts.
