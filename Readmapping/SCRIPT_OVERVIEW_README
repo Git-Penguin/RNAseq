@@ -1,0 +1,3 @@
+hisat_caller identifies the pairs of fastq files which belong together and passes them to hisat_execute
+hisat_execute does the actual hisat_call
+samtool_sorter Presorts the files so that they can then be merged by samtool_merger 
