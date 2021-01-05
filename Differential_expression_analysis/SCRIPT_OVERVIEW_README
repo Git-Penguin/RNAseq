@@ -5,3 +5,8 @@ Rexecute_gene=Gene mode standard filter
 Rexecute_gene_filtere=Gene mode custom filter
 
 transcriptPlotPrep and extractlogchange (the former calls the latter) handle the extraction and bundling of the data needed for the volcano plot
+
+genelist_cleanup adresses partially duplicate lines in the output of the gene mode analyses
+(Multiple for the same StringTie gene-IDs if they have multiple reference-genes assigned to them --> collapsed into one line per StrinTie gene-ID)
+
+
