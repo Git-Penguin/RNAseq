@@ -1,3 +1,7 @@
 The four Rexecute files correspond to the four different settings for running sleuth
 Rexecute_nonaggregated =Transcript mode standard filter 
-Rexecute_nonaggregated_filtered=Transcript 
+Rexecute_nonaggregated_filtered=Transcript mode custom filter
+Rexecute_gene=Gene mode standard filter
+Rexecute_gene_filtere=Gene mode custom filter
+
+plotPrep
