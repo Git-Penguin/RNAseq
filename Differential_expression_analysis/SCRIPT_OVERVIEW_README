@@ -1,0 +1,3 @@
+The four Rexecute files correspond to the four different settings for running sleuth
+Rexecute_nonaggregated =Transcript mode standard filter 
+Rexecute_nonaggregated_filtered=Transcript 
